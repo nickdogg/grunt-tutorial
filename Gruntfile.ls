@@ -8,13 +8,14 @@ module.exports = (grunt)->
         node:true
       }
       all:['Gruntfile.js', 'app/js/*.js']
-      connect:{
-        server:{
-          options:{
-            port:9000
-            base: \app
-            keepalive: true
-          }
+
+    }
+    connect:{
+      server:{
+        options:{
+          port:9000
+          base: \app
+          keepalive: true
         }
       }
     }
