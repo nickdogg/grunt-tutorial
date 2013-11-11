@@ -2,12 +2,13 @@
 'use strict';
 module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   return grunt.initConfig({
     jshint: {
       options: {
         node: true
       },
-      all: ['Gruntfile.js', 'app/js/**/*.js']
+      all: ['Gruntfile.js', 'app/js/*.js']
     }
   });
 };
