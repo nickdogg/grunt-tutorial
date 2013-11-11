@@ -1,0 +1,16 @@
+{
+  "name": "grunt-tutorial",
+  "version": "0.0.0",
+  "description": "a sample project for learning Grunt",
+  "main": "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NickDog",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.1",
+    "LiveScript": "~1.2.0"
+  }
+}
