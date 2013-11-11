@@ -6,6 +6,6 @@ module.exports = (grunt)->
       options:{
         node:true
       }
-      all:['Gruntfile.js']
+      all:['Gruntfile.js', 'app/js/*.js']
     }
   }
